@@ -9,7 +9,7 @@ A pixel-perfect replica of [Axiom Trade's Pulse](https://axiom.trade/pulse) toke
 | Resource | Link |
 |----------|------|
 | **Live Demo** | [https://token-trading-table-el-task.vercel.app](https://token-trading-table-el-task.vercel.app) |
-| **Video Demo** | [YouTube Walkthrough](https://your-youtube-url) |
+| **Video Demo** | [YouTube Walkthrough](https://www.youtube.com/watch?v=Eg82OxRYJgQ&t=6s) |
 | **Design Decisions** | [DESIGN_DECISIONS.md](./DESIGN_DECISIONS.md) |
 
 ---

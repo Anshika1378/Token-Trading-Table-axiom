@@ -9,7 +9,7 @@ import React, { memo } from 'react';
 import { cn } from '@/lib/utils';
 
 interface SkeletonProps {
-  variant?: 'default' | 'shimmer';
+  variant?: 'default' | 'shimmer' | 'skeleton';
   width?: string | number;
   height?: string | number;
   rounded?: 'none' | 'sm' | 'md' | 'lg' | 'full';

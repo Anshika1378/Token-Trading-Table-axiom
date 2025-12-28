@@ -2,7 +2,7 @@
 
 A pixel-perfect replica of [Axiom Trade's Pulse](https://axiom.trade/pulse) token discovery table, built with modern frontend technologies and best practices.
 
-![Axiom Pulse Clone Desktop](./public/screenshots/screenshot-desktop-1920.png)
+![Axiom Pulse Clone Desktop](./public/screenshots/screenshot-desktop-1920.png?v=2)
 
 ## 🚀 Live Demo
 
@@ -231,13 +231,13 @@ The application is fully responsive with two layout modes:
 ### Screenshots
 
 #### Desktop View (1920px) - Three Column Layout
-![Desktop View](./public/screenshots/screenshot-desktop-1920.png)
+![Desktop View](./public/screenshots/screenshot-desktop-1920.png?v=2)
 
 #### Tablet View (768px) - Three Column (compact)
-![Tablet View](./public/screenshots/screenshot-tablet-768.png)
+![Tablet View](./public/screenshots/screenshot-tablet-768.png?v=2)
 
 #### Mobile View (375px) - Tab Navigation
-![Mobile View](./public/screenshots/screenshot-mobile-375.png)
+![Mobile View](./public/screenshots/screenshot-mobile-375.png?v=2)
 
 ## ♿ Accessibility
 

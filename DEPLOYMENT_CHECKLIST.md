@@ -54,13 +54,6 @@ cd axiom-pulse-clone
 # Step 4: Deploy
 vercel
 
-# Step 5: Follow prompts:
-# - Set up and deploy? Yes
-# - Which scope? [Your account]
-# - Link to existing project? No
-# - Project name? axiom-pulse-clone
-# - Directory? ./
-# - Override settings? No
 
 # Step 6: Get production URL
 vercel --prod
@@ -124,11 +117,7 @@ vercel --prod
 After deployment, update these in `README.md`:
 
 ```markdown
-## 🚀 Live Demo
 
-- **Deployment**: https://axiom-pulse-clone.vercel.app
-- **YouTube Demo**: https://youtube.com/watch?v=YOUR_VIDEO_ID
-```
 
 ---
 
@@ -136,20 +125,7 @@ After deployment, update these in `README.md`:
 
 ### Running Lighthouse
 
-```bash
-# Option 1: Chrome DevTools
-# 1. Open deployed site in Chrome
-# 2. Press F12 → Lighthouse tab
-# 3. Select "Mobile" and "Desktop"
-# 4. Click "Analyze page load"
 
-# Option 2: CLI
-npx lighthouse https://your-site.vercel.app --view
-
-# Option 3: PageSpeed Insights
-# Go to https://pagespeed.web.dev
-# Enter your deployed URL
-```
 
 ### Target Scores (≥90 each)
 
@@ -171,65 +147,3 @@ npx lighthouse https://your-site.vercel.app --view
 | Missing lang attribute | Add `lang="en"` to `<html>` |
 
 ---
-
-## 📋 Final Submission Checklist
-
-### Required Deliverables
-
-- [ ] **GitHub Repository**
-  - [ ] Clean commit history
-  - [ ] README with setup instructions
-  - [ ] Screenshots in README
-
-- [ ] **Vercel Deployment**
-  - [ ] Site is live and accessible
-  - [ ] URL added to README
-  - [ ] All features working in production
-
-- [ ] **YouTube Demo**
-  - [ ] 1-2 minute video
-  - [ ] Shows all major features
-  - [ ] URL added to README
-
-### Before Submitting
-
-1. [ ] Test deployed site one final time
-2. [ ] Ensure all README links work
-3. [ ] Check YouTube video is accessible (not private)
-4. [ ] Verify GitHub repo is public
-5. [ ] Submit all three URLs
-
----
-
-## 🆘 Troubleshooting
-
-### Build Fails on Vercel
-
-```bash
-# Check for missing dependencies
-npm ci
-npm run build
-
-# If using environment variables
-# Add them in Vercel dashboard → Settings → Environment Variables
-```
-
-### Hydration Mismatch Errors
-
-The `useMediaQuery` hook has been fixed to handle SSR. If you still see errors:
-- Ensure you're using the updated hook
-- Check for other `window` usage without guards
-
-### Styles Not Loading
-
-```bash
-# Rebuild Tailwind
-npm run build
-
-# Check tailwind.config.ts content paths
-```
-
----
-
-Good luck with your submission! 🎉
-

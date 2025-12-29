@@ -1,12 +1,3 @@
-/**
- * Number and string formatting utilities
- * Used throughout the application for consistent data display
- */
-
-/**
- * Format a number as a compact currency value
- * e.g., 1234567 -> $1.23M, 1234 -> $1.23K
- */
 export function formatCurrency(value: number, decimals: number = 2): string {
   if (value === 0) return '$0';
   

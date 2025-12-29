@@ -1,10 +1,3 @@
-/**
- * PulseTable Organism Component
- * Responsive layout matching Axiom Trade Pulse:
- * - >= 1024px: 3-column layout
- * - < 1024px: Tab mode (single column with tabs)
- */
-
 'use client';
 
 import React, { memo, useState, useCallback } from 'react';

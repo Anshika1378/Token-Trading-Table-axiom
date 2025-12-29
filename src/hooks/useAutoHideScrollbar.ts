@@ -1,9 +1,3 @@
-/**
- * useAutoHideScrollbar Hook
- * Shows scrollbar only while scrolling, hides after delay
- * Matches Axiom Trade's scrollbar behavior
- */
-
 'use client';
 
 import { useEffect, useRef, useCallback } from 'react';
@@ -15,10 +9,7 @@ interface UseAutoHideScrollbarOptions {
   scrollingClass?: string;
 }
 
-/**
- * Hook that returns a ref to attach to a scrollable element.
- * Adds a class while scrolling and removes it after a delay.
- */
+
 export function useAutoHideScrollbar<T extends HTMLElement>(
   options: UseAutoHideScrollbarOptions = {}
 ) {

@@ -1,7 +1,3 @@
-/**
- * Mock WebSocket Service
- * Simulates real-time price updates for development
- */
 
 import type { Token, PriceUpdate, PriceDirection, TokenCategory } from '@/types';
 import { WEBSOCKET_CONFIG } from '@/utilities/constants';

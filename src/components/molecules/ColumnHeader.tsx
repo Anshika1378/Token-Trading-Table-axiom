@@ -1,8 +1,3 @@
-/**
- * ColumnHeader Molecule Component
- * Header for token category columns with sorting and filtering
- */
-
 'use client';
 
 import React, { memo, useCallback } from 'react';

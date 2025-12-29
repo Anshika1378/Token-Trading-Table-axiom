@@ -1,8 +1,3 @@
-/**
- * PriceText Atom Component
- * Displays price with flash animation on change
- */
-
 'use client';
 
 import React, { memo, useEffect, useState } from 'react';

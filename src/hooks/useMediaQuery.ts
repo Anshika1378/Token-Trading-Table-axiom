@@ -1,8 +1,4 @@
-/**
- * useMediaQuery Hook
- * Detects viewport width for responsive layouts
- * SSR-safe implementation to prevent hydration mismatch
- */
+
 
 'use client';
 

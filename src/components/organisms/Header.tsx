@@ -1,22 +1,11 @@
-/**
- * Header Organism Component
- * Main navigation header matching Axiom Trade design
- */
-
 'use client';
 
 import React, { memo } from 'react';
 import { cn } from '@/lib/utils';
 import { IconButton, Tooltip } from '@/components/atoms';
-import { 
-  Search, 
-  Bell, 
-  Star,
-  Settings,
-  ChevronDown,
-  Wallet,
-  Menu
-} from 'lucide-react';
+import {  Bell, Star, Settings,  ChevronDown, Wallet, Menu} from 'lucide-react';
+import { BiSearch } from "react-icons/bi"; 
+
 
 interface HeaderProps {
   className?: string;
@@ -45,10 +34,7 @@ export const Header = memo(function Header({ className }: HeaderProps) {
       <div className="flex items-center gap-6">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-lg">A</span>
-          </div>
-          <span className="text-white font-semibold hidden sm:block">AXIOM</span>
+            <img  src="https://miro.medium.com/v2/resize:fit:1400/0*qKVeg3_Z9JOMciTn.jpg" alt="Logo" className="h-20 w-30" />
           <span className="text-zinc-500 text-xs hidden sm:block">Pro</span>
         </div>
 
@@ -83,12 +69,16 @@ export const Header = memo(function Header({ className }: HeaderProps) {
 
       {/* Right Section - Actions */}
       <div className="flex items-center gap-2">
-        {/* Search */}
-        <Tooltip content="Search (⌘K)">
-          <IconButton aria-label="Search" size="md" variant="ghost">
-            <Search size={18} />
-          </IconButton>
-        </Tooltip>
+         {/* Search */}
+          <div className="relative w-[280px]">
+            <BiSearch  className="absolute left-3 top-1/2 -translate-y-1/2 text-white text-lg" />
+            <input
+              type="search"
+              placeholder="Search by Token or CA..."
+              className="w-full h-10 pl-10 pr-4 rounded-2xl bg-transparent text-white border border-white/40 placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/60"
+            />
+          </div>
+
 
         {/* Chain Selector */}
         <button
@@ -135,17 +125,7 @@ export const Header = memo(function Header({ className }: HeaderProps) {
         </div>
 
         {/* Profile */}
-        <button
-          className={cn(
-            'w-8 h-8 rounded-full',
-            'bg-gradient-to-br from-blue-500 to-purple-500',
-            'flex items-center justify-center',
-            'text-white text-sm font-medium',
-            'hover:opacity-80 transition-opacity'
-          )}
-        >
-          C
-        </button>
+          <button className="rounded-full px-3 py-3 text-sm font-medium bg-linear-to-r from-orange-500 to-green-500">AN</button>
       </div>
     </header>
   );

@@ -1,7 +1,4 @@
-/**
- * Root Layout
- * Sets up the HTML structure and providers
- */
+
 
 import type { Metadata, Viewport } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
@@ -21,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Axiom Pulse Clone | Token Discovery',
+  title: 'Axiom-Pulse-Table',
   description: 'Real-time token discovery table - A pixel-perfect clone of Axiom Trade Pulse',
   keywords: ['crypto', 'token', 'trading', 'defi', 'solana', 'pulse'],
   authors: [{ name: 'Developer' }],

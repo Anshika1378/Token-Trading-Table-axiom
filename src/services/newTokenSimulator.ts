@@ -1,18 +1,15 @@
-/**
- * New Token Simulator Service
- * Simulates new tokens appearing in real-time (like on Axiom)
- */
+
 
 import type { Token, TokenCategory } from '@/types';
 
 // Sample token names for simulation
 const TOKEN_NAMES = [
-  'PEPE', 'DOGE', 'SHIB', 'FLOKI', 'BONK', 'WIF', 'BRETT', 'POPCAT', 'MOG', 
-  'TURBO', 'NEIRO', 'MYRO', 'PONKE', 'SAMO', 'CATE', 'MEW', 'BOME', 'SLERF',
+  'PEN', 'HEN', 'TEN', 'LEG', 'BEN', 'SEN', 'CEN', 'GEN', 'REN', 
+  'EARTH', 'SUN', 'MARS', 'JUPITER', 'VENUS', 'PLOTO', 'MERCURY', 'SATURN', 'URANUS',
   'GME', 'TRUMP', 'ELON', 'MARS', 'MOON', 'ROCKET', 'APE', 'KONG', 'BEAR',
-  'BULL', 'WHALE', 'SHARK', 'TIGER', 'LION', 'PANDA', 'KOALA', 'FROG',
+  'STAR', 'MONEY', 'COIN', 'BEAR', 'LION', 'PANDA', 'KOALA', 'DOLL',
   'CAT', 'DOG', 'RAT', 'BAT', 'BIRD', 'FISH', 'CRAB', 'SQUID', 'DRAGON',
-  'PHOENIX', 'UNICORN', 'ZOMBIE', 'GHOST', 'ALIEN', 'ROBOT', 'NINJA', 'WIZARD'
+  'ONEPLUS', 'APPLE', 'VIVO', 'OPPO', 'SUMSUNG', 'NOKIA', 'JIO', 'AIRTLE'
 ];
 
 const SUFFIXES = ['', '2.0', 'AI', 'X', 'PRO', 'INU', 'COIN', 'TOKEN', 'SWAP', 'CHAIN'];

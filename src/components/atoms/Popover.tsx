@@ -1,7 +1,3 @@
-/**
- * Popover Atom Component
- * Accessible popover using Radix UI
- */
 
 'use client';
 

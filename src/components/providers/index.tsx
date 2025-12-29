@@ -1,8 +1,3 @@
-/**
- * Combined Providers Component
- * Wraps all necessary providers for the application
- */
-
 'use client';
 
 import React from 'react';

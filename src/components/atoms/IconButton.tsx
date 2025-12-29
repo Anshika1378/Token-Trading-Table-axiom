@@ -1,8 +1,3 @@
-/**
- * IconButton Atom Component
- * A button component optimized for icons
- */
-
 'use client';
 
 import React, { memo, forwardRef } from 'react';

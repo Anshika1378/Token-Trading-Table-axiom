@@ -1,8 +1,3 @@
-/**
- * Modal Atom Component
- * Accessible modal dialog using Radix UI
- */
-
 'use client';
 
 import React, { memo } from 'react';

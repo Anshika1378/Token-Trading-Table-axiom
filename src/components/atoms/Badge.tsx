@@ -1,8 +1,3 @@
-/**
- * Badge Atom Component
- * A small label component for displaying status, categories, or metrics
- */
-
 'use client';
 
 import React, { memo } from 'react';

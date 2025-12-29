@@ -1,8 +1,3 @@
-/**
- * Avatar Atom Component
- * Displays token avatars with colorful gradient fallbacks
- */
-
 'use client';
 
 import React, { memo, useState } from 'react';

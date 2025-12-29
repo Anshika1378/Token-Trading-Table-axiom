@@ -1,8 +1,3 @@
-/**
- * Token Data Hook
- * Manages token data fetching with React Query
- */
-
 'use client';
 
 import { useQuery, useQueryClient } from '@tanstack/react-query';

@@ -1,7 +1,3 @@
-/**
- * API Service
- * Mock API for fetching token data
- */
 
 import type { Token, TokenCategory, TokenListResponse } from '@/types';
 import { generateMockTokens } from '@/utilities/mockData';

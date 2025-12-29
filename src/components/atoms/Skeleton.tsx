@@ -1,8 +1,3 @@
-/**
- * Skeleton Atom Component
- * Loading placeholder with shimmer effect
- */
-
 'use client';
 
 import React, { memo } from 'react';

@@ -1,8 +1,3 @@
-/**
- * Tooltip Atom Component
- * Accessible tooltip using Radix UI
- */
-
 'use client';
 
 import React, { memo } from 'react';

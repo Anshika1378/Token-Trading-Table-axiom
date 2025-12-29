@@ -79,8 +79,6 @@ export const TokenColumn = memo(function TokenColumn({
   // Auto-hide scrollbar ref
   const scrollRef = useAutoHideScrollbar<HTMLDivElement>({ hideDelay: 1000 });
 
-  // Column border classes based on position (vertical separators between columns)
-  // Only show borders in desktop 3-column view
   const borderClasses = cn(
     'border-zinc-800/70',
     // Right border for left and middle columns (creates vertical separator)

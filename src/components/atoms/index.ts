@@ -1,7 +1,4 @@
-/**
- * Atoms Index
- * Re-exports all atom components
- */
+
 
 export { Badge } from './Badge';
 export { PriceText } from './PriceText';

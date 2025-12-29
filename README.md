@@ -2,17 +2,8 @@
 
 A pixel-perfect replica of [Axiom Trade's Pulse](https://axiom.trade/pulse) token discovery table, built with modern frontend technologies and best practices.
 
-![Axiom Pulse Clone Desktop](./public/screenshots/screenshot-desktop-1920.png?v=2)
+![Axiom Pulse Desktop View](/screenshots/Screenshot (250).png)
 
-## 🔗 Links
-
-| Resource | Link |
-|----------|------|
-| **Live Demo** | [https://token-trading-table-el-task.vercel.app](https://token-trading-table-el-task.vercel.app) |
-| **Video Demo** | [YouTube Walkthrough](https://www.youtube.com/watch?v=Eg82OxRYJgQ&t=6s) |
-| **Design Decisions** | [DESIGN_DECISIONS.md](./DESIGN_DECISIONS.md) |
-
----
 
 ## 📋 Project Overview
 
@@ -59,7 +50,6 @@ src/
 └── utilities/          # Formatters, constants, mock data
 ```
 
-> 📖 For detailed architecture decisions, see **[DESIGN_DECISIONS.md](./DESIGN_DECISIONS.md)**
 
 ---
 
@@ -96,21 +86,6 @@ src/
 
 ---
 
-## 📱 Responsive Design
-
-| Breakpoint | Layout |
-|------------|--------|
-| ≥1024px | Three-column grid |
-| <1024px | Tab-based single column |
-
-### Desktop View (1920px)
-![Desktop View](./public/screenshots/screenshot-desktop-1920.png?v=2)
-
-### Tablet View (768px)
-![Tablet View](./public/screenshots/screenshot-tablet-768.png?v=2)
-
-### Mobile View (375px)
-![Mobile View](./public/screenshots/screenshot-mobile-375.png?v=2)
 
 ---
 
@@ -121,14 +96,6 @@ src/
 - Node.js 18.x or higher
 - npm 9.x or higher
 
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/Ankitg-713/Token-Trading-Table---EL-Task.git
-
-# Navigate to project directory
-cd Token-Trading-Table---EL-Task
 
 # Install dependencies
 npm install
@@ -168,16 +135,6 @@ Open **[http://localhost:3000](http://localhost:3000)** to view the application.
 - ✅ Focus visible indicators
 - ✅ Screen reader friendly (Radix UI)
 
----
-
-## 📚 Documentation
-
-| Document | Description |
-|----------|-------------|
-| [DESIGN_DECISIONS.md](./DESIGN_DECISIONS.md) | Detailed explanation of architecture, state management, component design, and technical decisions |
-| [DEPLOYMENT_CHECKLIST.md](./DEPLOYMENT_CHECKLIST.md) | Pre-deployment and post-deployment verification checklist |
-
----
 
 ## 🧪 Note on Mock Services
 
@@ -193,12 +150,8 @@ No actual blockchain API or WebSocket connections are required to run the applic
 
 ## 👤 Author
 
-**Ankit Kumar Gupta**
+**Anshika Agarwal**
 
-Built for the **EternaLabs Frontend Developer Assessment**
+Built for the ** Frontend Developer Assessment**
 
 ---
-
-## 📄 License
-
-This project is for educational/assessment purposes only. Not affiliated with Axiom Trade.

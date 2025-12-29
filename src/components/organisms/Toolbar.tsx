@@ -1,8 +1,3 @@
-/**
- * Toolbar Organism Component
- * Secondary toolbar with display options and quick actions
- */
-
 'use client';
 
 import React, { memo } from 'react';

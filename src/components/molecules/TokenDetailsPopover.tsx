@@ -1,8 +1,3 @@
-/**
- * TokenDetailsPopover Molecule Component
- * Detailed popover view for token information
- */
-
 'use client';
 
 import React, { memo } from 'react';

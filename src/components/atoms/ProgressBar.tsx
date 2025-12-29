@@ -1,8 +1,3 @@
-/**
- * ProgressBar Atom Component
- * A thin progress bar for showing percentages
- */
-
 'use client';
 
 import React, { memo } from 'react';

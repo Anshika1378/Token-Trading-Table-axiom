@@ -6,7 +6,8 @@ A pixel-perfect replica of [Axiom Trade's Pulse](https://axiom.trade/pulse) toke
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2ee939e4-b9ef-4476-9b8e-6f3dadb9c006" />
 
 
-
+# Youtube link : 
+https://youtu.be/N2MblJpmdRk?si=09S7EQNSrLN0QR6M
 ## 📋 Project Overview
 
 This project demonstrates a production-grade implementation of a real-time token discovery interface with:

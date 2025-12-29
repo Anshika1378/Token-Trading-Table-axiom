@@ -2,7 +2,7 @@
 
 A pixel-perfect replica of [Axiom Trade's Pulse](https://axiom.trade/pulse) token discovery table, built with modern frontend technologies and best practices.
 
-![Axiom Pulse Desktop View](/screenshots/Screenshot (250).png)
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2ee939e4-b9ef-4476-9b8e-6f3dadb9c006" />
 
 
